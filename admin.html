@@ -6,13 +6,13 @@
 <title>Roycel Chungdam · Admin Dashboard</title>
 <meta name="robots" content="noindex, nofollow">
 
-<!-- GA4 — Replace G-XXXXXXXXXX with your real Measurement ID -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<!-- GA4 — Replace G-K6V680N54L with your real Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K6V680N54L"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX', { send_page_view: false }); // admin page itself not counted
+  gtag('config', 'G-K6V680N54L', { send_page_view: false }); // admin page itself not counted
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -234,25 +234,30 @@
   }
 
   .ga-notice {
-    background: linear-gradient(180deg, #fff8eb 0%, #fef4dc 100%);
-    border: 1px solid #ecd9a4;
+    background: linear-gradient(180deg, #f0f7f3 0%, #e7f1ea 100%);
+    border: 1px solid #b8d4c4;
     padding: 14px 20px;
     margin-bottom: 24px;
     border-radius: 4px;
     font-size: 0.86rem;
-    color: #6e5821;
+    color: #2e5a44;
     display: flex;
     align-items: flex-start;
     gap: 10px;
   }
-  .ga-notice strong { color: #4a3a14; }
+  .ga-notice strong { color: #1a3e2c; }
   .ga-notice code {
     font-family: ui-monospace, monospace;
     background: #fff;
     padding: 1px 6px;
     border-radius: 3px;
-    border: 1px solid #ecd9a4;
+    border: 1px solid #b8d4c4;
     font-size: 0.84em;
+    color: #1a3e2c;
+  }
+  .ga-notice a {
+    color: var(--gold-deep);
+    text-decoration: underline;
   }
 
   .page-header {
@@ -500,9 +505,9 @@
   <div class="container">
 
     <div class="ga-notice" id="gaNotice">
-      <span style="font-size: 1.1rem;">ⓘ</span>
+      <span style="font-size: 1.1rem;">✓</span>
       <div>
-        <strong>Connect to live data:</strong> Replace <code>G-XXXXXXXXXX</code> in <code>admin.html</code>, <code>index.html</code>, and <code>pricing.html</code> with your real Google Analytics 4 Measurement ID. The figures shown below are <strong>illustrative samples</strong> until then. View the live source at <a href="https://analytics.google.com" target="_blank">analytics.google.com</a>.
+        <strong>Google Analytics connected.</strong> Live tracking is active on <code>roycelglobal.com</code> via Measurement ID <code>G-K6V680N54L</code>. The figures below show <strong>representative sample data</strong> for layout preview — the live GA data appears at <a href="https://analytics.google.com" target="_blank">analytics.google.com</a>, where you can also export raw reports. This dashboard provides a fast at-a-glance summary and PDF/Excel reports formatted for stakeholders.
       </div>
     </div>
 
@@ -643,7 +648,7 @@
   // ============================================================
   const ADMIN_PASSWORD = 'roycel2026';
   const SESSION_KEY = 'roycel_admin_session';
-  const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // matches index/pricing
+  const GA_MEASUREMENT_ID = 'G-K6V680N54L'; // matches index/pricing
 
   // ============================================================
   // LOGIN GATE
