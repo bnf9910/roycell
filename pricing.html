@@ -1,0 +1,3065 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" style=""><head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============================================
+         GOOGLE ANALYTICS 4 (GA4)
+         ⬇️ Replace 'G-XXXXXXXXXX' with your real Measurement ID
+         ============================================ -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {
+        page_path: window.location.pathname,
+        anonymize_ip: true,
+      });
+      window.trackEvent = function(name, params){
+        try { gtag('event', name, params || {}); } catch(e) {}
+      };
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    
+    <title>Roycell Chungdam Consultation Book</title>
+    
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 88px 104px 116px;
+        background:
+          radial-gradient(circle at 50% -8%, rgba(199, 160, 96, 0.1), transparent 16%),
+          radial-gradient(circle at 15% 12%, rgba(212, 184, 129, 0.04), transparent 22%),
+          radial-gradient(circle at 85% 10%, rgba(184, 146, 84, 0.035), transparent 22%),
+          linear-gradient(180deg, #11100f 0%, #090909 38%, #050505 100%);
+        color: #ece3d7;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        line-height: 1.8;
+        letter-spacing: 0.013em;
+        position: relative;
+        overflow-x: hidden;
+      }
+
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 18px;
+        border: 1px solid rgba(212, 184, 129, 0.09);
+        box-shadow:
+          inset 0 0 0 1px rgba(255, 245, 225, 0.01),
+          0 0 18px rgba(212, 184, 129, 0.025);
+        pointer-events: none;
+      }
+
+      /* Cover Section */
+      .cover {
+        text-align: center;
+        padding: 156px 38px 132px;
+        border: 1px solid rgba(212, 184, 129, 0.16);
+        margin-bottom: 58px;
+        position: relative;
+        border-radius: 18px;
+        background:
+          radial-gradient(circle at 50% -10%, rgba(255, 229, 175, 0.03), transparent 24%),
+          linear-gradient(180deg, rgba(255, 255, 255, 0.012) 0%, rgba(212, 184, 129, 0.028) 22%, rgba(34, 28, 22, 0.62) 100%);
+        box-shadow:
+          inset 0 1px 0 rgba(255, 255, 255, 0.025),
+          inset 0 -1px 0 rgba(212, 184, 129, 0.05),
+          0 22px 56px rgba(0, 0, 0, 0.34),
+          0 0 0 1px rgba(92, 70, 34, 0.12);
+      }
+
+      .cover::after {
+        content: '';
+        display: block;
+        width: 152px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(200, 176, 132, 0.04), rgba(216, 184, 124, 0.48), rgba(200, 176, 132, 0.04), transparent);
+        margin: 44px auto 0;
+        box-shadow: 0 0 10px rgba(224, 190, 122, 0.08);
+      }
+
+      .cover-sparkle {
+        width: 152px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(200, 176, 132, 0.04), rgba(216, 184, 124, 0.48), rgba(200, 176, 132, 0.04), transparent);
+        margin: 0 auto 44px;
+        box-shadow: 0 0 10px rgba(224, 190, 122, 0.08);
+      }
+
+      .logo-img {
+        width: 132px;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 46px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.995;
+        position: relative;
+        top: 0;
+        filter:
+          drop-shadow(0 0 22px rgba(212, 184, 129, 0.16))
+          drop-shadow(0 0 38px rgba(255, 244, 222, 0.06));
+      }
+
+      .cover h1 {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: 0.16em;
+        word-spacing: 0.03em;
+        margin: 0 0 24px;
+        color: #efe7da;
+        text-transform: uppercase;
+        line-height: 1.02;
+        background: linear-gradient(180deg, #f0e8dc 0%, #cfb38a 58%, #8d6530 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow:
+          0 0 8px rgba(255, 255, 255, 0.014),
+          0 0 10px rgba(212, 184, 129, 0.03);
+      }
+
+      .cover p {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.34em;
+        color: #bfa485;
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      .brand-top {
+        display: inline-block;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        letter-spacing: 0.12em;
+        background: linear-gradient(180deg, #e7dccd 0%, #a97738 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 0 5px rgba(212, 184, 129, 0.018);
+      }
+
+      .brand-bottom {
+        display: inline-block;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        letter-spacing: 0.18em;
+      }
+
+      /* Notice */
+      .notice {
+        text-align: right;
+        font-size: 0.79rem;
+        font-weight: 400;
+        color: #9c8d79;
+        margin-top: 2px;
+        margin-bottom: 32px;
+        line-height: 1.6;
+        letter-spacing: 0.1em;
+        text-transform: none;
+      }
+
+      /* Section Styling */
+      .section {
+        margin-bottom: 26px;
+        padding: 42px 40px 34px;
+        border: 1px solid rgba(212, 184, 129, 0.14);
+        border-radius: 14px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.012) 0%, rgba(212, 184, 129, 0.022) 100%);
+        box-shadow:
+          inset 0 1px 0 rgba(255, 255, 255, 0.015),
+          0 10px 24px rgba(0, 0, 0, 0.2);
+        position: relative;
+        break-inside: avoid-page;
+        page-break-inside: avoid;
+      }
+
+      .section-title {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #d3b27b;
+        border-bottom: 1px solid rgba(214, 188, 136, 0.2);
+        padding-bottom: 16px;
+        margin-bottom: 24px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      /* Price List Styling */
+      .price-list {
+        width: 100%;
+        border-collapse: collapse;
+        break-inside: auto;
+        page-break-inside: auto;
+        font-family: 'Inter', sans-serif;
+      }
+
+      .price-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 28px;
+        padding: 14px 0;
+        border-bottom: 1px solid rgba(214, 188, 136, 0.1);
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      .price-item:last-child {
+        border-bottom: none;
+      }
+
+      .item-name {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.97rem;
+        color: #e3d9cd;
+        letter-spacing: 0.028em;
+        flex: 1;
+        text-transform: none;
+      }
+
+      .item-name,
+      .item-name * {
+        font-family: 'Inter', sans-serif !important;
+      }
+
+      .item-price {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.92rem;
+        color: #e3c48f;
+        font-weight: 400;
+        text-align: right;
+        min-width: 150px;
+        letter-spacing: 0.08em;
+        text-shadow: 0 0 8px rgba(212, 184, 129, 0.04);
+      }
+
+      .item-price strong {
+        font-weight: 400;
+      }
+
+      .unit-small {
+        font-size: 0.68em;
+        letter-spacing: 0.01em;
+        opacity: 0.82;
+      }
+
+      /* Subhead Styling */
+      .subhead {
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        color: #c6a776;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        margin-top: 48px;
+        margin-bottom: 18px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(212, 184, 129, 0.14);
+      }
+
+      .subhead:first-of-type {
+        margin-top: 0;
+      }
+
+      /* Footer */
+      .footer {
+        margin-top: 78px;
+        padding-top: 28px;
+        border-top: 1px solid rgba(216, 192, 155, 0.12);
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        font-size: 0.74rem;
+        color: #90795a;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+      }
+
+      @page {
+        size: A4;
+        margin: 14mm 12mm 16mm;
+      }
+
+      /* ============================================
+         MOBILE — Aggressive override (max-width: 760px)
+         ============================================ */
+      @media (max-width: 760px) {
+        body {
+          font-size: 14px;
+          max-width: 100% !important;
+          padding: 100px 0 50px !important;
+          line-height: 1.6;
+          letter-spacing: 0;
+        }
+        body::before {
+          inset: 4px !important;
+        }
+
+        /* ===== COVER (logo + procedure guide) ===== */
+        .cover {
+          padding: 44px 18px 36px !important;
+          margin: 0 10px 16px !important;
+          border-radius: 8px;
+        }
+        .cover h1 { margin: 18px 0 0 !important; }
+        .cover h1 span {
+          font-size: 20px !important;
+          letter-spacing: 0.06em !important;
+        }
+        .brand-top, .brand-bottom {
+          letter-spacing: 0.1em !important;
+        }
+        .cover p {
+          font-size: 0.7rem !important;
+          letter-spacing: 0.16em !important;
+          margin-top: 14px !important;
+        }
+        .logo-img { width: 80px !important; height: auto !important; }
+        .cover-sparkle { display: none !important; }
+
+        /* ===== NOTICE BAR ===== */
+        .notice {
+          font-size: 0.7rem !important;
+          letter-spacing: 0.02em !important;
+          padding: 10px 14px !important;
+          margin: 0 10px 14px !important;
+          text-align: center !important;
+          border-radius: 6px;
+        }
+
+        /* ===== PRICING SECTIONS ===== */
+        .section {
+          padding: 18px 14px 14px !important;
+          margin: 0 10px 12px !important;
+          border-radius: 6px !important;
+        }
+        .section-title {
+          font-size: 0.78rem !important;
+          padding-bottom: 10px !important;
+          margin-bottom: 12px !important;
+          letter-spacing: 0.06em !important;
+        }
+        .price-item {
+          padding: 10px 0 !important;
+          gap: 10px !important;
+          align-items: center !important;
+        }
+        .item-name {
+          font-size: 0.78rem !important;
+          letter-spacing: 0 !important;
+          line-height: 1.35 !important;
+        }
+        .item-name * {
+          font-size: 0.78rem !important;
+        }
+        .item-price {
+          font-size: 0.76rem !important;
+          min-width: 78px !important;
+          letter-spacing: 0.02em !important;
+          white-space: nowrap !important;
+        }
+        .item-price strong { font-size: 0.76rem !important; }
+
+        /* ===== FOOTER ===== */
+        .footer {
+          font-size: 0.66rem !important;
+          padding: 22px 14px !important;
+          margin: 14px 10px 0 !important;
+          letter-spacing: 0.1em;
+        }
+      }
+
+      @media (max-width: 420px) {
+        body {
+          font-size: 13px;
+          padding: 92px 0 40px !important;
+        }
+        body::before {
+          inset: 2px !important;
+        }
+        .cover {
+          padding: 36px 14px 30px !important;
+          margin: 0 6px 14px !important;
+        }
+        .cover h1 span {
+          font-size: 17px !important;
+        }
+        .cover p {
+          font-size: 0.62rem !important;
+          letter-spacing: 0.12em !important;
+        }
+        .logo-img { width: 64px !important; }
+        .notice {
+          font-size: 0.62rem !important;
+          padding: 9px 10px !important;
+          margin: 0 6px 12px !important;
+        }
+        .section {
+          padding: 14px 12px 10px !important;
+          margin: 0 6px 10px !important;
+        }
+        .section-title {
+          font-size: 0.72rem !important;
+        }
+        .price-item {
+          padding: 9px 0 !important;
+          gap: 8px !important;
+        }
+        .item-name, .item-name * {
+          font-size: 0.72rem !important;
+          line-height: 1.3 !important;
+        }
+        .item-price, .item-price strong {
+          font-size: 0.7rem !important;
+          min-width: 66px !important;
+        }
+        .footer {
+          font-size: 0.6rem !important;
+          padding: 18px 12px !important;
+          margin: 12px 6px 0 !important;
+        }
+      }
+
+      @media print {
+        html,
+        body {
+          width: 100%;
+          max-width: none;
+          margin: 0;
+          padding: 0;
+          background: #0b0b0b !important;
+          color: #ece3d7 !important;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+
+        body::before {
+          content: none;
+          display: none;
+        }
+
+        .cover,
+        .notice,
+        .section,
+        .section-title,
+        .price-list,
+        .price-item,
+        .footer {
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+
+        .cover {
+          margin-bottom: 26px;
+          padding: 88px 28px 76px;
+          border-radius: 0;
+          box-shadow: none;
+          background: linear-gradient(180deg, #151311 0%, #0d0c0b 100%) !important;
+        }
+
+        .cover::after,
+        .cover-sparkle {
+          box-shadow: none;
+        }
+
+        .logo-img {
+          filter: none;
+        }
+
+        .cover h1,
+        .brand-top,
+        .brand-bottom,
+        .section-title {
+          background: none !important;
+          -webkit-background-clip: border-box;
+          -webkit-text-fill-color: initial;
+          color: #d8b27a !important;
+          text-shadow: none;
+        }
+
+        .cover p {
+          color: #bfa485 !important;
+        }
+
+        .section {
+          margin-bottom: 18px;
+          padding: 24px 22px 20px;
+          border-radius: 0;
+          box-shadow: none;
+          background: rgba(255, 255, 255, 0.02) !important;
+        }
+
+        .section-title {
+          break-after: avoid-page;
+          page-break-after: avoid;
+        }
+
+        .price-item {
+          orphans: 2;
+          widows: 2;
+        }
+
+        .item-price {
+          color: #debf8f !important;
+          text-shadow: none;
+        }
+      }
+
+      /* ============================================
+         TREATMENTS SECTION — full menu of procedures
+         ============================================ */
+      .treatments-section {
+        max-width: 1180px;
+        margin: 60px auto 0;
+        padding: 0 32px;
+        display: none;
+      }
+      .treatments-section.is-visible {
+        display: block;
+      }
+
+      .tx-header {
+        text-align: center;
+        margin-bottom: 56px;
+      }
+      .tx-eyebrow {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.4em;
+        color: #cfb38a;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+      }
+      .tx-title {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: clamp(2rem, 4.2vw, 3rem);
+        font-weight: 400;
+        line-height: 1.18;
+        margin: 0 0 24px;
+        background: linear-gradient(180deg, #f0e8dc 0%, #cfb38a 70%, #9b7340 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: #efe7da;
+      }
+      .tx-title em { font-style: italic; }
+      .tx-ornament {
+        width: 152px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(216, 184, 124, 0.55), transparent);
+        margin: 0 auto 24px;
+      }
+      .tx-lede {
+        font-family: 'Cormorant Garamond', 'Noto Serif', serif;
+        font-style: italic;
+        font-size: 1.1rem;
+        color: #bfa485;
+        max-width: 640px;
+        margin: 0 auto;
+        line-height: 1.65;
+      }
+
+      .tx-cat {
+        margin-bottom: 72px;
+      }
+      .tx-cat:last-child { margin-bottom: 0; }
+
+      .tx-cat-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        margin-bottom: 14px;
+        padding-bottom: 22px;
+        border-bottom: 1px solid rgba(212, 184, 129, 0.14);
+      }
+      .tx-cat-num {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-style: italic;
+        font-size: 2.8rem;
+        line-height: 1;
+        background: linear-gradient(180deg, #e0be7a 0%, #8d6530 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        flex-shrink: 0;
+        margin-top: 4px;
+      }
+      .tx-cat-label {
+        display: block;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.74rem;
+        letter-spacing: 0.34em;
+        color: #cfb38a;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+      .tx-cat-title {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: clamp(1.5rem, 2.6vw, 2rem);
+        font-weight: 400;
+        line-height: 1.22;
+        color: #efe7da;
+        margin: 0;
+      }
+      .tx-cat-title em { font-style: italic; }
+      .tx-cat-lede {
+        font-family: 'Cormorant Garamond', 'Noto Serif', serif;
+        font-style: italic;
+        font-size: 1.02rem;
+        color: #bfa485;
+        margin-bottom: 36px;
+        margin-left: calc(2.8rem + 24px);
+        line-height: 1.65;
+        max-width: 720px;
+      }
+
+      .tx-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+
+      .tx-card {
+        padding: 32px 28px 26px;
+        border: 1px solid rgba(212, 184, 129, 0.14);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(212, 184, 129, 0.022) 100%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      }
+      .tx-card.is-signature {
+        border-color: rgba(212, 184, 129, 0.32);
+        background: linear-gradient(180deg, rgba(212, 184, 129, 0.05) 0%, rgba(212, 184, 129, 0.02) 100%);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+      }
+      .tx-card.is-signature::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #d4b881, transparent);
+      }
+      .tx-tag {
+        display: inline-block;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.62rem;
+        letter-spacing: 0.3em;
+        color: #0a0705;
+        background: linear-gradient(180deg, #d4b881 0%, #a97738 100%);
+        padding: 4px 10px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+        align-self: flex-start;
+      }
+      .tx-card-cat {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.66rem;
+        letter-spacing: 0.3em;
+        color: #cfb38a;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      .tx-card-name {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 1.4rem;
+        color: #efe7da;
+        margin: 0 0 12px;
+        line-height: 1.22;
+        letter-spacing: 0.02em;
+      }
+      .tx-card-name em { font-style: italic; color: #e7d09a; }
+      .tx-card-desc {
+        color: #9c8d79;
+        font-size: 0.88rem;
+        line-height: 1.7;
+        margin: 0 0 20px;
+      }
+      .tx-card-meta {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 14px;
+        border-top: 1px solid rgba(212, 184, 129, 0.1);
+        font-size: 0.74rem;
+        color: #bfa485;
+        letter-spacing: 0.04em;
+        margin-top: auto;
+      }
+      .tx-card-meta span:first-child {
+        color: #cfb38a;
+        text-transform: uppercase;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        letter-spacing: 0.2em;
+        font-size: 0.64rem;
+      }
+
+      @media (max-width: 960px) {
+        .tx-grid { grid-template-columns: repeat(2, 1fr); }
+      }
+      @media (max-width: 760px) {
+        .treatments-section { padding: 0 22px; margin-top: 40px; }
+        .tx-header { margin-bottom: 40px; }
+        .tx-cat { margin-bottom: 50px; }
+        .tx-cat-header {
+          flex-direction: column;
+          gap: 8px;
+          padding-bottom: 18px;
+        }
+        .tx-cat-num { font-size: 2.2rem; }
+        .tx-cat-title { font-size: 1.4rem; }
+        .tx-cat-lede {
+          margin-left: 0;
+          margin-bottom: 26px;
+          font-size: 0.98rem;
+        }
+        .tx-grid {
+          grid-template-columns: 1fr;
+          gap: 12px;
+        }
+        .tx-card { padding: 22px 22px 20px; }
+        .tx-card-name { font-size: 1.2rem; }
+        .tx-card-desc { font-size: 0.86rem; }
+      }
+
+      /* ============================================
+         TAB NAV — Pricing / Results switcher
+         ============================================ */
+      .tab-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background: rgba(5, 5, 5, 0.88);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border-bottom: 1px solid rgba(212, 184, 129, 0.16);
+        padding: 14px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      .tab-nav .back-link {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.74rem;
+        letter-spacing: 0.26em;
+        color: #cfb38a;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 0.3s ease;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .tab-nav .back-link:hover { color: #e7d09a; }
+      .tab-nav .back-link svg { width: 14px; height: 14px; }
+
+      .tab-nav .tabs {
+        display: flex;
+        gap: 4px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
+      .tab-nav .tabs::-webkit-scrollbar { display: none; }
+
+      .tab-nav .tab {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.32em;
+        color: #9c8d79;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 22px;
+        background: transparent;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+      }
+      .tab-nav .tab:hover { color: #cfb38a; }
+      .tab-nav .tab.is-active {
+        color: #efe7da;
+        border-color: rgba(212, 184, 129, 0.32);
+        background: linear-gradient(180deg, rgba(212, 184, 129, 0.06) 0%, rgba(212, 184, 129, 0.02) 100%);
+      }
+
+      .tab-nav .consult-btn {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        padding: 9px 18px;
+        background: linear-gradient(180deg, #d4b881 0%, #a97738 100%);
+        color: #0a0705;
+        border: 1px solid #e0be7a;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+      }
+      .tab-nav .consult-btn:hover {
+        background: linear-gradient(180deg, #e7d09a 0%, #c08740 100%);
+        transform: translateY(-1px);
+      }
+
+      /* Push body content down to make room for fixed nav */
+      body {
+        padding-top: 136px !important;
+      }
+
+      @media (max-width: 760px) {
+        /* 2-row layout: top row = back + consult, bottom row = tabs */
+        .tab-nav {
+          flex-direction: column;
+          align-items: stretch;
+          padding: 12px 16px 10px;
+          gap: 10px;
+        }
+        .tab-nav-top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 10px;
+        }
+        .tab-nav .back-link {
+          font-size: 0.66rem;
+          letter-spacing: 0.2em;
+        }
+        .tab-nav .back-link .long { display: none !important; }
+        .tab-nav .back-link .short { display: inline !important; }
+        .tab-nav .consult-btn {
+          font-size: 0.62rem;
+          padding: 8px 14px;
+          letter-spacing: 0.18em;
+        }
+        .tab-nav .tabs {
+          display: flex !important;
+          gap: 6px !important;
+          overflow-x: auto;
+          overflow-y: hidden;
+          width: 100%;
+          padding-bottom: 4px;
+          justify-content: flex-start;
+          scrollbar-width: none;
+        }
+        .tab-nav .tabs::-webkit-scrollbar { display: none; }
+        .tab-nav .tab {
+          font-size: 0.66rem !important;
+          letter-spacing: 0.2em !important;
+          padding: 10px 16px !important;
+          white-space: nowrap;
+          flex: 1 1 0;
+          min-width: max-content;
+          text-align: center;
+        }
+        /* Adjust body padding for taller 2-row nav */
+        body { padding-top: 116px !important; }
+      }
+      @media (max-width: 420px) {
+        .tab-nav { padding: 10px 12px 8px; gap: 8px; }
+        .tab-nav .back-link { font-size: 0.6rem; letter-spacing: 0.16em; }
+        .tab-nav .consult-btn { font-size: 0.58rem; padding: 7px 12px; letter-spacing: 0.16em; }
+        .tab-nav .tab {
+          font-size: 0.56rem !important;
+          padding: 8px 8px !important;
+          letter-spacing: 0.12em !important;
+        }
+        body { padding-top: 108px !important; }
+      }
+
+      /* ============================================
+         RESULTS / BEFORE & AFTER SECTION
+         ============================================ */
+      .results-section {
+        max-width: 980px;
+        margin: 80px auto 0;
+        padding: 0 32px;
+        display: none;
+      }
+      .results-section.is-visible {
+        display: block;
+      }
+
+      .results-header {
+        text-align: center;
+        margin-bottom: 64px;
+      }
+      .results-eyebrow {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.4em;
+        color: #cfb38a;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+      }
+      .results-title {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: clamp(2rem, 4.2vw, 3rem);
+        font-weight: 400;
+        line-height: 1.18;
+        margin: 0 0 28px;
+        background: linear-gradient(180deg, #f0e8dc 0%, #cfb38a 70%, #9b7340 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: #efe7da;
+      }
+      .results-title em { font-style: italic; }
+      .results-ornament {
+        width: 152px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(216, 184, 124, 0.55), transparent);
+        margin: 0 auto 28px;
+      }
+      .results-lede {
+        font-family: 'Cormorant Garamond', 'Noto Serif', serif;
+        font-style: italic;
+        font-size: 1.1rem;
+        color: #bfa485;
+        max-width: 640px;
+        margin: 0 auto 12px;
+        line-height: 1.65;
+      }
+      .results-disclaimer {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.74rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: #9c8d79;
+        opacity: 0.8;
+        margin-top: 24px;
+      }
+
+      .ba-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+      }
+
+      .ba-card {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.012) 0%, rgba(212, 184, 129, 0.022) 100%);
+        border: 1px solid rgba(212, 184, 129, 0.18);
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      }
+      .ba-card-wide {
+        grid-column: span 2;
+      }
+      .ba-card img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .ba-card-label {
+        padding: 22px 26px 24px;
+        border-top: 1px solid rgba(212, 184, 129, 0.14);
+        background: rgba(5, 5, 5, 0.5);
+        flex: 1;
+      }
+      .ba-card-label h4 {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 1.02rem;
+        margin: 0 0 6px;
+        color: #efe7da;
+        letter-spacing: 0.04em;
+        font-weight: 400;
+      }
+      .ba-card-label p {
+        font-size: 0.82rem;
+        color: #9c8d79;
+        letter-spacing: 0.04em;
+        margin: 0;
+        line-height: 1.55;
+      }
+      .ba-card-detail {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin-top: 14px;
+        padding-top: 14px;
+        border-top: 1px dashed rgba(212, 184, 129, 0.16);
+      }
+      .ba-card-detail span {
+        font-size: 0.78rem;
+        color: #bfa485;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+      }
+
+      .results-cta-card {
+        grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 56px 32px;
+        background: linear-gradient(180deg, rgba(212, 184, 129, 0.06) 0%, rgba(212, 184, 129, 0.02) 100%);
+        border: 1px solid rgba(212, 184, 129, 0.28);
+      }
+      .results-cta-card .eyebrow {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.72rem;
+        letter-spacing: 0.34em;
+        color: #cfb38a;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+      }
+      .results-cta-card h3 {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 1.5rem;
+        font-style: italic;
+        color: #efe7da;
+        margin: 0 0 18px;
+        font-weight: 400;
+        line-height: 1.3;
+      }
+      .results-cta-card p {
+        color: #9c8d79;
+        font-size: 0.92rem;
+        margin: 0 0 28px;
+        max-width: 460px;
+        line-height: 1.65;
+      }
+      .results-cta-btn {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.74rem;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        padding: 14px 30px;
+        background: linear-gradient(180deg, #d4b881 0%, #a97738 100%);
+        color: #0a0705;
+        border: 1px solid #e0be7a;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+      }
+      .results-cta-btn:hover {
+        background: linear-gradient(180deg, #e7d09a 0%, #c08740 100%);
+        transform: translateY(-1px);
+      }
+
+      @media (max-width: 960px) {
+        .ba-card-wide { grid-column: span 2; }
+        .results-cta-card { grid-column: span 2; }
+      }
+
+      @media (max-width: 760px) {
+        .results-section { padding: 0 22px; margin-top: 60px; }
+        .results-header { margin-bottom: 44px; }
+        .ba-grid {
+          grid-template-columns: 1fr;
+          gap: 16px;
+        }
+        .ba-card-wide { grid-column: span 1; }
+        .results-cta-card { grid-column: span 1; padding: 44px 24px; }
+        .results-cta-card h3 { font-size: 1.3rem; }
+        .ba-card-detail span { font-size: 0.74rem; }
+      }
+
+      /* ============================================
+         DEVICES SECTION
+         ============================================ */
+      .devices-section {
+        max-width: 1180px;
+        margin: 60px auto 0;
+        padding: 0 32px;
+        display: none;
+      }
+      .devices-section.is-visible { display: block; }
+
+      /* ----- Category block ----- */
+      .dev-cat {
+        margin-bottom: 80px;
+      }
+      .dev-cat:last-child { margin-bottom: 40px; }
+
+      .dev-cat-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        margin-bottom: 36px;
+        padding-bottom: 22px;
+        border-bottom: 1px solid rgba(212, 184, 129, 0.16);
+      }
+      .dev-cat-num {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-style: italic;
+        font-size: 2.8rem;
+        line-height: 1;
+        background: linear-gradient(180deg, #e0be7a 0%, #8d6530 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        flex-shrink: 0;
+        margin-top: 4px;
+      }
+      .dev-cat-label {
+        display: block;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.74rem;
+        letter-spacing: 0.34em;
+        color: #cfb38a;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .dev-cat-title {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: clamp(1.5rem, 2.6vw, 2rem);
+        font-weight: 400;
+        line-height: 1.22;
+        color: #efe7da;
+        margin: 0;
+      }
+      .dev-cat-title em { font-style: italic; }
+
+      /* ----- Grid + Card ----- */
+      .dev-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .dev-grid-single {
+        grid-template-columns: 1fr;
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      .dev-card {
+        position: relative;
+        padding: 30px 28px 28px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(212, 184, 129, 0.022) 100%);
+        border: 1px solid rgba(212, 184, 129, 0.16);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transition: all 0.35s ease;
+      }
+      .dev-card:hover {
+        border-color: rgba(212, 184, 129, 0.32);
+        background: linear-gradient(180deg, rgba(212, 184, 129, 0.03) 0%, rgba(212, 184, 129, 0.04) 100%);
+      }
+      .dev-card.is-signature {
+        border-color: rgba(212, 184, 129, 0.38);
+        background: linear-gradient(180deg, rgba(212, 184, 129, 0.06) 0%, rgba(212, 184, 129, 0.02) 100%);
+        box-shadow: 0 18px 44px rgba(0, 0, 0, 0.32);
+      }
+      .dev-card.is-signature::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #e0be7a, transparent);
+      }
+
+      .dev-signature-tag {
+        position: absolute;
+        top: -1px;
+        right: 22px;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.6rem;
+        letter-spacing: 0.28em;
+        color: #0a0705;
+        background: linear-gradient(180deg, #d4b881 0%, #a97738 100%);
+        padding: 4px 11px;
+        text-transform: uppercase;
+      }
+
+      .dev-cat-tag {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.62rem;
+        letter-spacing: 0.3em;
+        color: #cfb38a;
+        text-transform: uppercase;
+        margin-top: 4px;
+      }
+
+      .dev-card-name {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 1.55rem;
+        color: #efe7da;
+        margin: 0;
+        font-weight: 400;
+        line-height: 1.15;
+        letter-spacing: 0.01em;
+      }
+      .dev-card-name em {
+        font-style: italic;
+        color: #e7d09a;
+      }
+      .dev-card-name sup {
+        font-size: 0.45em;
+        color: #cfb38a;
+        vertical-align: super;
+      }
+
+      .dev-card-sub {
+        font-family: 'Cormorant Garamond', 'Noto Serif', serif;
+        font-style: italic;
+        font-size: 0.92rem;
+        color: #bfa485;
+        margin-bottom: 4px;
+      }
+
+      .dev-card-desc {
+        color: #9c8d79;
+        font-size: 0.9rem;
+        line-height: 1.7;
+        margin: 4px 0 14px;
+      }
+      .dev-card-desc em {
+        font-style: italic;
+        color: #bfa485;
+      }
+
+      .dev-card-points {
+        list-style: none;
+        margin: 0;
+        padding: 16px 0 0;
+        border-top: 1px solid rgba(212, 184, 129, 0.12);
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+      }
+      .dev-card-points li {
+        font-size: 0.8rem;
+        color: #bfa485;
+        line-height: 1.5;
+        padding-left: 14px;
+        position: relative;
+      }
+      .dev-card-points li::before {
+        content: '·';
+        position: absolute;
+        left: 0;
+        top: -2px;
+        color: #cfb38a;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      @media (max-width: 960px) {
+        .dev-grid { grid-template-columns: repeat(2, 1fr); }
+      }
+      @media (max-width: 760px) {
+        .devices-section { padding: 0 18px; margin-top: 36px; }
+        .dev-cat { margin-bottom: 44px; }
+        .dev-cat-header {
+          flex-direction: column;
+          gap: 6px;
+          padding-bottom: 16px;
+          margin-bottom: 22px;
+        }
+        .dev-cat-num { font-size: 2rem; }
+        .dev-cat-title { font-size: 1.3rem; }
+        .dev-cat-label { font-size: 0.66rem; letter-spacing: 0.26em; }
+
+        /* 2x2 grid on mobile — compact tiles */
+        .dev-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+        .dev-grid-single {
+          grid-template-columns: 1fr;
+          max-width: 100%;
+        }
+
+        .dev-card {
+          padding: 16px 14px 14px;
+          gap: 6px;
+        }
+        .dev-cat-tag {
+          font-size: 0.52rem;
+          letter-spacing: 0.18em;
+          margin-top: 0;
+          line-height: 1.2;
+        }
+        .dev-card-name {
+          font-size: 1.05rem;
+          line-height: 1.1;
+        }
+        .dev-card-name sup { font-size: 0.4em; }
+        .dev-card-sub {
+          font-size: 0.72rem;
+          line-height: 1.3;
+          margin-bottom: 2px;
+        }
+        .dev-card-desc {
+          font-size: 0.72rem;
+          line-height: 1.5;
+          margin: 4px 0 10px;
+          /* Limit to ~4 lines on mobile to keep tiles uniform */
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+        .dev-card-points {
+          padding-top: 10px;
+          gap: 4px;
+        }
+        .dev-card-points li {
+          font-size: 0.66rem;
+          line-height: 1.4;
+          padding-left: 10px;
+        }
+        .dev-card-points li::before { font-size: 1em; top: -1px; }
+
+        .dev-signature-tag {
+          font-size: 0.5rem;
+          padding: 3px 7px;
+          letter-spacing: 0.18em;
+          right: 12px;
+        }
+
+        /* Signature card spans full row on mobile for emphasis */
+        .dev-card.is-signature {
+          grid-column: span 2;
+        }
+      }
+
+      @media (max-width: 420px) {
+        .devices-section { padding: 0 14px; }
+        .dev-grid { gap: 8px; }
+        .dev-card { padding: 14px 12px 12px; }
+        .dev-card-name { font-size: 0.98rem; }
+        .dev-card-sub { font-size: 0.68rem; }
+        .dev-card-desc { font-size: 0.68rem; -webkit-line-clamp: 3; }
+        .dev-card-points li { font-size: 0.62rem; }
+        .dev-cat-tag { font-size: 0.5rem; letter-spacing: 0.16em; }
+        .dev-signature-tag { font-size: 0.46rem; }
+      }
+
+      /* ============================================
+         LEGACY (preserved but unused now) — single-card device layout
+         ============================================ */
+
+      .device-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
+
+      .device-card {
+        background: linear-gradient(180deg, rgba(212, 184, 129, 0.04) 0%, rgba(212, 184, 129, 0.015) 100%);
+        border: 1px solid rgba(212, 184, 129, 0.22);
+        overflow: hidden;
+        position: relative;
+        display: grid;
+        grid-template-columns: 360px 1fr;
+        gap: 0;
+      }
+      .device-card-signature {
+        border-color: rgba(212, 184, 129, 0.4);
+        box-shadow: 0 18px 48px rgba(0, 0, 0, 0.35);
+      }
+      .device-card-signature::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #e0be7a, transparent);
+      }
+
+      .device-tag {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        z-index: 2;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.64rem;
+        letter-spacing: 0.3em;
+        color: #0a0705;
+        background: linear-gradient(180deg, #d4b881 0%, #a97738 100%);
+        padding: 5px 12px;
+        text-transform: uppercase;
+      }
+
+      .device-image-wrap {
+        background: linear-gradient(180deg, #faf6ee 0%, #e8dcc4 100%);
+        padding: 40px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .device-image-wrap img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        filter: drop-shadow(0 14px 32px rgba(0, 0, 0, 0.16));
+      }
+
+      .device-content {
+        padding: 36px 36px 32px;
+      }
+      .device-category {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.7rem;
+        letter-spacing: 0.32em;
+        color: #cfb38a;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      .device-name {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 2rem;
+        color: #efe7da;
+        margin: 0 0 18px;
+        font-weight: 400;
+        line-height: 1.1;
+      }
+      .device-name em { font-style: italic; }
+      .device-name sup {
+        font-size: 0.5em;
+        letter-spacing: 0.04em;
+        vertical-align: super;
+        color: #cfb38a;
+      }
+      .device-desc {
+        color: #bfa485;
+        font-size: 0.92rem;
+        line-height: 1.75;
+        margin: 0 0 26px;
+      }
+
+      .device-spec-row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+        padding: 18px 0;
+        margin-bottom: 22px;
+        border-top: 1px solid rgba(212, 184, 129, 0.16);
+        border-bottom: 1px solid rgba(212, 184, 129, 0.16);
+      }
+      .device-spec {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .device-spec-label {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.6rem;
+        letter-spacing: 0.26em;
+        color: #9c8d79;
+        text-transform: uppercase;
+      }
+      .device-spec-value {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 1.05rem;
+        color: #e7d09a;
+      }
+
+      .device-awards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+      }
+      .device-award {
+        text-align: center;
+        padding: 14px 8px;
+        border: 1px solid rgba(212, 184, 129, 0.14);
+        background: rgba(5, 5, 5, 0.4);
+      }
+      .device-award strong {
+        display: block;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.14em;
+        color: #e7d09a;
+        margin-bottom: 4px;
+        font-weight: 400;
+      }
+      .device-award small {
+        display: block;
+        font-size: 0.62rem;
+        letter-spacing: 0.06em;
+        color: #9c8d79;
+        line-height: 1.4;
+      }
+
+      .device-coming-soon {
+        text-align: center;
+        padding: 48px 32px;
+        border: 1px dashed rgba(212, 184, 129, 0.22);
+        background: rgba(5, 5, 5, 0.3);
+      }
+      .device-coming-soon p {
+        font-family: 'Cormorant Garamond', 'Noto Serif', serif;
+        font-style: italic;
+        color: #bfa485;
+        font-size: 1rem;
+        margin: 0;
+        line-height: 1.65;
+      }
+
+      @media (max-width: 760px) {
+        .devices-section { padding: 0 22px; margin-top: 40px; }
+        .device-card {
+          grid-template-columns: 1fr;
+        }
+        .device-image-wrap { padding: 32px 24px; }
+        .device-image-wrap img { max-width: 220px; }
+        .device-content { padding: 28px 24px 26px; }
+        .device-name { font-size: 1.6rem; }
+        .device-desc { font-size: 0.88rem; }
+        .device-spec-row {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 12px 16px;
+        }
+        .device-awards {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+        .device-coming-soon p { font-size: 0.92rem; }
+      }
+
+      /* ============================================
+         PRICING / RESULTS — show/hide based on tab
+         ============================================ */
+      .pricing-content { display: block; }
+      .pricing-content.is-hidden { display: none; }
+
+      @media print {
+        .tab-nav { display: none !important; }
+        body { padding-top: 0 !important; }
+      }
+      /* ============================================
+         CONSULTATION FORM MODAL
+         ============================================ */
+      .consult-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 2000;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      .consult-modal.is-open { display: flex; }
+      .consult-modal-overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(5, 5, 5, 0.82);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+      }
+      .consult-modal-box {
+        position: relative;
+        width: 100%;
+        max-width: 580px;
+        max-height: 90vh;
+        overflow-y: auto;
+        background: linear-gradient(180deg, #14110c 0%, #0c0a07 100%);
+        border: 1px solid rgba(212, 184, 129, 0.32);
+        box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6);
+        padding: 48px 44px 40px;
+        -webkit-overflow-scrolling: touch;
+      }
+      .consult-modal-box::-webkit-scrollbar { width: 8px; }
+      .consult-modal-box::-webkit-scrollbar-thumb {
+        background: rgba(212, 184, 129, 0.2);
+        border-radius: 4px;
+      }
+      .consult-modal-close {
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: 1px solid rgba(212, 184, 129, 0.14);
+        color: #9c8d79;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .consult-modal-close:hover {
+        border-color: #c7a060;
+        color: #e0be7a;
+      }
+      .consult-modal-header {
+        text-align: center;
+        margin-bottom: 32px;
+      }
+      .consult-modal-eyebrow {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.74rem;
+        letter-spacing: 0.34em;
+        color: #c7a060;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      .consult-modal-title {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 1.9rem;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #ece3d7;
+        margin: 0 0 14px;
+      }
+      .consult-modal-sub {
+        font-family: 'Cormorant Garamond', 'Noto Serif', serif;
+        font-style: italic;
+        font-size: 1.02rem;
+        color: #bfa485;
+        line-height: 1.6;
+        margin: 0 auto;
+        max-width: 420px;
+      }
+      .consult-form {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+      }
+      .cf-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+      .cf-field {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .cf-field label {
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #cfb38a;
+      }
+      .cf-sublabel {
+        font-size: 0.68rem !important;
+        letter-spacing: 0.1em !important;
+        color: #9c8d79 !important;
+      }
+      .cf-hint {
+        color: #9c8d79;
+        text-transform: none;
+        letter-spacing: 0.02em;
+        font-style: italic;
+        font-size: 0.92em;
+      }
+      .cf-field input[type="text"],
+      .cf-field input[type="tel"],
+      .cf-field input[type="date"],
+      .cf-field input[type="datetime-local"],
+      .cf-field select {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.92rem;
+        color: #ece3d7;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(212, 184, 129, 0.32);
+        padding: 12px 14px;
+        transition: border-color 0.3s ease, background 0.3s ease;
+        width: 100%;
+      }
+      .cf-field input::placeholder { color: rgba(236, 227, 215, 0.32); }
+      .cf-field input:focus,
+      .cf-field select:focus {
+        outline: none;
+        border-color: #c7a060;
+        background: rgba(212, 184, 129, 0.04);
+      }
+      .cf-field select {
+        cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23c7a060' d='M6 8L0 0h12z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 14px center;
+        padding-right: 36px;
+      }
+      .cf-field input[type="date"]::-webkit-calendar-picker-indicator,
+      .cf-field input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+        filter: invert(0.7) sepia(1) saturate(2) hue-rotate(5deg);
+        cursor: pointer;
+      }
+      .cf-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .cf-chip {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.82rem;
+        color: #bfa485;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(212, 184, 129, 0.32);
+        padding: 9px 16px;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        border-radius: 2px;
+      }
+      .cf-chip:hover {
+        border-color: #cfb38a;
+        color: #ece3d7;
+      }
+      .cf-chip.is-selected {
+        background: linear-gradient(180deg, #d4b881 0%, #a97738 100%);
+        border-color: #e0be7a;
+        color: #0a0705;
+        font-weight: 500;
+      }
+      .cf-checkbox-line {
+        display: flex !important;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif !important;
+        font-size: 0.88rem !important;
+        letter-spacing: 0.01em !important;
+        text-transform: none !important;
+        color: #bfa485 !important;
+        padding: 4px 0;
+      }
+      .cf-checkbox-line input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        accent-color: #c7a060;
+        cursor: pointer;
+        flex-shrink: 0;
+      }
+      .cf-visit-dates {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        margin-top: 6px;
+      }
+      .cf-visit-dates.is-hidden { display: none; }
+      .cf-times {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .cf-time-slot {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .cf-time-num {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Sorts Mill Goudy', 'Noto Serif', serif;
+        font-style: italic;
+        font-size: 0.92rem;
+        color: #e0be7a;
+        border: 1px solid rgba(212, 184, 129, 0.32);
+        border-radius: 50%;
+      }
+      .cf-time-slot .cf-date-input { flex: 1.4; min-width: 0; }
+      .cf-time-slot .cf-time-select { flex: 1; min-width: 0; }
+      .cf-time-select.cf-time-closed {
+        border-color: rgba(180, 90, 90, 0.4);
+        color: #c98b8b;
+      }
+      .cf-note-small {
+        font-size: 0.76rem;
+        color: #9c8d79;
+        font-style: italic;
+        margin: 4px 0 0;
+        line-height: 1.5;
+      }
+      .cf-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 8px;
+      }
+      .cf-submit {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.82rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #0a0705;
+        background: linear-gradient(180deg, #d4b881 0%, #a97738 100%);
+        border: 1px solid #e0be7a;
+        padding: 16px 24px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      .cf-submit:hover {
+        background: linear-gradient(180deg, #e7d09a 0%, #c08740 100%);
+        transform: translateY(-1px);
+      }
+      .cf-skip {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.1em;
+        color: #9c8d79;
+        background: transparent;
+        border: 1px solid rgba(212, 184, 129, 0.14);
+        padding: 13px 24px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .cf-skip:hover {
+        border-color: #cfb38a;
+        color: #bfa485;
+      }
+
+      /* Floating Consult button */
+      .consult-fab {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        z-index: 90;
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #0a0705;
+        background: linear-gradient(180deg, #d4b881 0%, #a97738 100%);
+        border: 1px solid #e0be7a;
+        padding: 14px 22px;
+        cursor: pointer;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+      }
+      .consult-fab:hover {
+        background: linear-gradient(180deg, #e7d09a 0%, #c08740 100%);
+        transform: translateY(-2px);
+      }
+      .consult-fab svg { width: 20px; height: 20px; fill: currentColor; }
+
+      @media (max-width: 760px) {
+        .consult-modal { padding: 0; }
+        .consult-modal-box {
+          max-width: 100%;
+          max-height: 100vh;
+          height: 100%;
+          padding: 40px 22px 32px;
+          border: none;
+        }
+        .consult-modal-title { font-size: 1.55rem; }
+        .consult-modal-sub { font-size: 0.96rem; }
+        .consult-modal-header { margin-bottom: 26px; }
+        .consult-form { gap: 20px; }
+        .cf-row { grid-template-columns: 1fr; gap: 18px; }
+        .cf-field label { font-size: 0.74rem; }
+        .cf-chip { font-size: 0.82rem; padding: 10px 15px; }
+        .consult-fab {
+          bottom: 18px;
+          right: 18px;
+          padding: 12px 18px;
+          font-size: 0.72rem;
+        }
+        .consult-fab .fab-label { display: none; }
+        .consult-fab svg { width: 22px; height: 22px; }
+      }
+    </style>
+  </head>
+  <body style="">
+
+    <!-- ===== TAB NAV — Pricing / Results switcher ===== -->
+    <nav class="tab-nav">
+      <div class="tab-nav-top">
+        <a href="index.html" class="back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          <span class="long">Back to Roycel</span><span class="short" style="display:none">Home</span>
+        </a>
+        <button class="consult-btn" onclick="openConsultForm()">Consult</button>
+      </div>
+      <div class="tabs">
+        <button class="tab is-active" data-tab="pricing">Pricing</button>
+        <button class="tab" data-tab="results">Results</button>
+        <button class="tab" data-tab="devices">Medical Devices</button>
+        <button class="tab" data-tab="petit">Petit</button>
+      </div>
+    </nav>
+
+
+    <!-- ===== PRICING CONTENT (default tab) ===== -->
+    <div class="pricing-content" id="pricing-content">
+
+    <div class="cover">
+      <div class="cover-sparkle"></div>
+      <img src="data:image/png;base64,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" alt="Roycell Chungdam Logo" class="logo-img" data-height-listener-added="true">
+      <h1><span style="font-size: 32px;"><span class="brand-top">ROYCEL</span><br><span class="brand-bottom">CHUNGDAM</span></span></h1>
+      <p>procedure guide</p>
+    </div>
+
+    <div class="notice">* All prices are inclusive of VAT (KRW)</div>
+
+    
+    <div class="section">
+      <h2 class="section-title">ROYCEL STEM CELL THERAPY</h2>
+      <div class="price-list">
+        <div class="price-item">
+          <span class="item-name">FACIAL INJECTION 60<span class="unit-small">cc</span></span>
+          <span class="item-price">2,900,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">
+  
+    <span style="color: rgb(210, 205, 197);
+        font-family: Inter, sans-serif;
+        font-size: 15.36px;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-weight: 300;
+        letter-spacing: 0.384px;
+        orphans: 2;
+        text-align: start;
+        text-indent: 0px;
+        text-transform: none;
+        widows: 2;
+        word-spacing: 0px;
+        -webkit-text-stroke-width: 0px;
+        white-space: normal;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        display: inline !important;
+        float: none;">FACIAL INJECTION</span>
+  
+
+ 60<span class="unit-small">cc</span> x 3</span>
+          <span class="item-price">7,700,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">FACIAL &amp; PARTIAL IV INJECTION 120<span class="unit-small">cc</span></span>
+          <span class="item-price">5,900,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">
+  
+    <span style="color: rgb(210, 205, 197);
+        font-family: Inter, sans-serif;
+        font-size: 15.36px;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-weight: 300;
+        letter-spacing: 0.384px;
+        orphans: 2;
+        text-align: start;
+        text-indent: 0px;
+        text-transform: none;
+        widows: 2;
+        word-spacing: 0px;
+        -webkit-text-stroke-width: 0px;
+        white-space: normal;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        display: inline !important;
+        float: none;">FACIAL &amp; PARTIAL IV INJECTION</span>
+  
+
+ 120<span style="font-size: 10.5536px; letter-spacing: 0.105536px;">cc</span>&nbsp;x 3</span>
+          <span class="item-price">16,000,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">
+  
+    <span style="color: rgb(210, 205, 197);
+        font-family: Inter, sans-serif;
+        font-size: 15.36px;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-weight: 300;
+        letter-spacing: 0.384px;
+        orphans: 2;
+        text-align: start;
+        text-indent: 0px;
+        text-transform: none;
+        widows: 2;
+        word-spacing: 0px;
+        -webkit-text-stroke-width: 0px;
+        white-space: normal;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        display: inline !important;
+        float: none;">FACIAL &amp; TOTAL IV INJECTION</span>
+  
+
+ 240<span class="unit-small">cc</span></span>
+          <span class="item-price">9,900,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">
+  
+    <span style="color: rgb(210, 205, 197);
+        font-family: Inter, sans-serif;
+        font-size: 15.36px;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-weight: 300;
+        letter-spacing: 0.384px;
+        orphans: 2;
+        text-align: start;
+        text-indent: 0px;
+        text-transform: none;
+        widows: 2;
+        word-spacing: 0px;
+        -webkit-text-stroke-width: 0px;
+        white-space: normal;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        display: inline !important;
+        float: none;">FACIAL &amp; TOTAL IV INJECTION</span>
+  
+
+ 240<span class="unit-small">cc</span> x 3</span>
+          <span class="item-price">26,000,000</span>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <h2 class="section-title">LIFTING &amp; TIGHTENING</h2>
+      <div class="price-list">
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY EYE 100</span><span class="item-price">790,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>ULTHERAPY 100</strong></span><span class="item-price">690,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY 200</span><span class="item-price">1,290,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY 300</span><span class="item-price">1,890,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY 400</span><span class="item-price">2,390,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY 500</span><span class="item-price">2,990,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY 600</span><span class="item-price">3,490,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY 700</span><span class="item-price">3,990,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY 800</span><span class="item-price">4,400,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">ULTHERAPY BODY 1000</span><span class="item-price">5,900,000</span>
+        </div>
+        <div class="price-item"><span class="item-name">SOFWAVE 50</span><span class="item-price">990,000</span></div>
+        <div class="price-item">
+          <span class="item-name">SOFWAVE 100</span><span class="item-price">1,900,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">SOFWAVE 200</span><span class="item-price">2,900,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">THERMAGE FLX 300</span><span class="item-price">1,690,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">THERMAGE FLX 600</span><span class="item-price">2,900,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">TITANIUM 40KJ [SHR+STACK]</span><span class="item-price">590,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">TITANIUM 80KJ [SHR+STACK]</span><span class="item-price">990,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">TITANIUM 120KJ [SHR+STACK]</span><span class="item-price">1,390,000</span>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <h2 class="section-title">SIGNATURE CONTOUR &amp; DEFINE</h2>
+      <div class="price-list">
+        <div class="price-item">
+          <span class="item-name"><strong>THREAD LIFT x 1</strong></span><span class="item-price"><strong>190,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>THREAD LIFT x 4</strong></span><span class="item-price"><strong>690,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>THREAD LIFT x 8</strong></span><span class="item-price"><strong>1,390,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>42CM THREAD LIFT - V LINE</strong></span><span class="item-price"><strong>1,590,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>V-OLET INJECTION</strong></span><span class="item-price"><strong>590,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>FACIAL CONTOURING INJECTION</strong></span><span class="item-price"><strong>290,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>BODY REFORM INJECTION</strong></span><span class="item-price"><strong>790,000</strong></span>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <h2 class="section-title">PREMIUM FILLER &amp; BOTOX</h2>
+      <div class="price-list">
+        <div class="price-item">
+          <span class="item-name"><strong>JUVEDERM FILLER 1</strong><span class="unit-small"><strong>cc</strong></span></span><span class="item-price"><strong>490,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>BELOTERO FILLER 1</strong><span class="unit-small"><strong>cc</strong></span></span><span class="item-price"><strong>490,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>XEOMIN INJECTION</strong></span><span class="item-price"><strong>130,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>XEOMIN DERMOTOXIN</strong></span><span class="item-price"><strong>550,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>XEOMIN&nbsp;</strong><span style="letter-spacing: 0.384px;"><strong>HYPERHIDROSIS</strong></span><span style="letter-spacing: 0.384px;">&nbsp;</span><span style="font-size: 0.96rem; letter-spacing: 0.025em;"><strong>Tx</strong></span></span><span class="item-price"><strong>440,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>JAW / TEMPLE XEOMIN INJECTION</strong></span><span class="item-price"><strong>250,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>BODY XEOMIN INJECTION</strong></span><span class="item-price"><strong>660,000</strong></span>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <h2 class="section-title">TAYLORED SKIN BOOSTER</h2>
+      <div class="price-list">
+        <div class="price-item">
+          <span class="item-name"><strong>REJURAN HB 1</strong><span class="unit-small"><strong>cc</strong></span></span><span class="item-price"><strong>330,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>REJURAN HEALER 2</strong><span class="unit-small"><strong>cc</strong></span></span><span class="item-price"><strong>440,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name"><strong>REJURAN HEALER 4</strong><span class="unit-small"><strong>cc</strong></span></span><span class="item-price"><strong>790,000</strong></span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">SKINVIVE 1<span class="unit-small">cc</span></span><span class="item-price">390,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">SKIN GLOW 2<span class="unit-small">cc</span></span><span class="item-price">190,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">Re2O</span><span class="item-price">990,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">RADIESSE</span><span class="item-price">990,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">RADIESSE FACE &amp; NECK</span><span class="item-price">1,690,000</span>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <h2 class="section-title">REFORM SKIN CONTOURING</h2>
+      <div class="price-list">
+        <div class="price-item">
+          <span class="item-name">POTENZA</span><span class="item-price">490,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">POTENZA + EXOSOME</span><span class="item-price">590,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">PICO FRACTIONAL LASER</span><span class="item-price">390,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">TOTAL PIGMENTATION LASER COMBINATION</span><span class="item-price">&nbsp;690,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">PIGMENTATION PACKAGE x 5</span><span class="item-price">2,900,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">PIGMENTATION PACKAGE x 10</span><span class="item-price">3,900,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">FACIAL HAIR REMOVAL</span><span class="item-price">290,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">BODY HAIR REMOVAL</span><span class="item-price">990,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">SCAR INJECTION THERAPY</span><span class="item-price">330,000</span>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <h2 class="section-title">CLINICAL REVITALIZATION</h2>
+      <div class="price-list">
+        <div class="price-item">
+          <span class="item-name">FACIAL CALMING SONO / CRYO / LDM THERAPY</span><span class="item-price">190,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">BRIGHTENING IONZYME</span><span class="item-price">290,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">HYDRAFACIAL </span><span class="item-price">490,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">HYDRAFACIAL x 5 </span><span class="item-price">2,000,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">HYDRAFACIAL x 10 </span><span class="item-price">3,300,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">BASIC DÉCOLLETÉ THERAPY </span><span class="item-price">290,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">INTENSIVE DÉCOLLETÉ THERAPY </span><span class="item-price">390,000</span>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <h2 class="section-title">SYSTEMIC IV THERAPY</h2>
+      <div class="price-list">
+        <div class="price-item">
+          <span class="item-name">ESSENTIAL IV THERAPY </span><span class="item-price">150,000</span>
+        </div>
+        <div class="price-item">
+          <span class="item-name">BESPOKE IV THERAPY</span><span class="item-price">250,000</span>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="footer">Roycel Chungdam</div>
+
+    </div><!-- /.pricing-content -->
+
+    <!-- ===== RESULTS SECTION (B&A) ===== -->
+    <section class="results-section" id="results-content">
+      <div class="results-header">
+        <div class="results-eyebrow">Clinical Cases</div>
+        <h2 class="results-title">Real results, <em>quietly delivered.</em></h2>
+        <div class="results-ornament"></div>
+        <p class="results-lede">Eleven selected before-and-after cases from the Roycel practice — each combining several modalities, calibrated to the individual.</p>
+        <p class="results-disclaimer">— Photos shared with patient consent · Individual results may vary —</p>
+      </div>
+
+      <div class="ba-grid">
+
+        <div class="ba-card">
+          <img src="assets/ba/case_01.webp" alt="Case 01 — Contour & dark circle improvement" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 01 · Contour &amp; Dark Circles</h4>
+            <p>Ulthera · Sofwave · Tear-trough &amp; nasolabial filler · 1 month after</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_02.webp" alt="Case 02 — Elasticity & rested appearance" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 02 · Elasticity &amp; Rested Look</h4>
+            <p>Ulthera · Thermage · Tear-trough &amp; nasolabial filler · 20 days after</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_03.webp" alt="Case 03 — Midface volume restoration" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 03 · Midface Volume</h4>
+            <p>Tear-trough &amp; nasolabial filler · 10 days after</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_04.webp" alt="Case 04 — Forehead filler" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 04 · Forehead Refinement</h4>
+            <p>Forehead filler · Immediately after</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_05.webp" alt="Case 05 — Tear-trough filler + Ulthera" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 05 · Under-Eye &amp; Lift</h4>
+            <p>Tear-trough filler + Ulthera · Immediately after</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_06.webp" alt="Case 06 — Combined lifting & filler" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 06 · Combined Refresh</h4>
+            <p>Ulthera + Tear-trough &amp; nasolabial filler · Immediately after</p>
+          </div>
+        </div>
+
+        <!-- Comprehensive case spans 2 columns on desktop -->
+        <div class="ba-card ba-card-wide">
+          <img src="assets/ba/case_comprehensive.webp" alt="Comprehensive lifting protocol" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Comprehensive Lifting Protocol</h4>
+            <p>Ulthera 400s + Thermage 600s · Nasolabial &amp; tear-trough filler · Skin Botox &amp; Pigmentation Package</p>
+            <div class="ba-card-detail">
+              <span>· Jawline &amp; midface tightening</span>
+              <span>· Improved elasticity &amp; fine-line softening</span>
+              <span>· Volume restoration &amp; pigment improvement</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_07.webp" alt="Case 07 — Side face line refinement" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 07 · Side Profile</h4>
+            <p>Side face line refinement</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_08.webp" alt="Case 08 — Ulthera + rhinoplasty filler" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 08 · Profile &amp; Nose</h4>
+            <p>Ulthera + rhinoplasty filler · 1 month after</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_09.webp" alt="Case 09 — Jawline lifting & contour" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 09 · Jawline Refinement</h4>
+            <p>Jawline lifting &amp; contour restoration</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_10.webp" alt="Case 10 — Ulthera + filler follow-up" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 10 · Long-Term Follow-up</h4>
+            <p>Ulthera + tear-trough &amp; nasolabial filler · 2 months after</p>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <img src="assets/ba/case_11.webp" alt="Case 11 — Filler follow-up" loading="lazy">
+          <div class="ba-card-label">
+            <h4>Case 11 · Two-Week Result</h4>
+            <p>Tear-trough &amp; nasolabial filler · 2 weeks after</p>
+          </div>
+        </div>
+
+        <div class="results-cta-card">
+          <div class="eyebrow">Want to see your potential?</div>
+          <h3>Book a personalized<br>consultation.</h3>
+          <p>A senior physician will review your concerns and design a treatment plan tailored to your features, schedule, and travel itinerary.</p>
+          <a href="#" onclick="openConsultForm(); return false;" class="results-cta-btn">Talk to Roycel</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MEDICAL DEVICES SECTION (Lifting + Laser) ===== -->
+    <section class="devices-section" id="devices-content">
+      <div class="results-header">
+        <div class="results-eyebrow">Medical Devices</div>
+        <h2 class="results-title">The instruments of <em>our practice.</em></h2>
+        <div class="results-ornament"></div>
+        <p class="results-lede">Globally certified, clinically validated medical devices — chosen and combined to deliver precise, personalized results.</p>
+      </div>
+
+      <!-- LIFTING CATEGORY -->
+      <div class="dev-cat">
+        <div class="dev-cat-header">
+          <span class="dev-cat-num">01</span>
+          <div>
+            <span class="dev-cat-label">Lifting &amp; Tightening</span>
+            <h3 class="dev-cat-title">Layered protocols for a <em>lifted face.</em></h3>
+          </div>
+        </div>
+
+        <div class="dev-grid">
+          <article class="dev-card">
+            <div class="dev-cat-tag">Lifting · HIFU</div>
+            <h4 class="dev-card-name"><em>Ulthera</em></h4>
+            <div class="dev-card-sub">Visualizing HIFU · Merz Aesthetics</div>
+            <p class="dev-card-desc">The visualizing HIFU. Real-time DeepSEE™ imaging allows the physician to see the SMAS layer beneath the skin and deliver focused ultrasound energy with surgical precision — for contour and laxity concerns.</p>
+            <ul class="dev-card-points">
+              <li>FDA-cleared SMAS lifting</li>
+              <li>Real-time tissue imaging</li>
+              <li>Single-session, no downtime</li>
+            </ul>
+          </article>
+
+          <article class="dev-card is-signature">
+            <span class="dev-signature-tag">Signature</span>
+            <div class="dev-cat-tag">Lifting · Synchronous Ultrasound</div>
+            <h4 class="dev-card-name"><em>Sofwave</em><sup>™</sup></h4>
+            <div class="dev-card-sub">11.5MHz · 7 Transducers · Sofwave Medical</div>
+            <p class="dev-card-desc">Roycel's flagship lifting protocol. Synchronous ultrasound beam technology delivers energy precisely at the 1.5mm dermal layer where wrinkles form, without compromising surrounding tissue.</p>
+            <ul class="dev-card-points">
+              <li>11.5 MHz · 7 transducers · 1.5mm depth</li>
+              <li>Integrated cooling system protects the surface</li>
+              <li>ELLE · SHAPE · COSMO · NEW BEAUTY recognized</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Lifting · Diode Laser</div>
+            <h4 class="dev-card-name"><em>Titanium</em></h4>
+            <div class="dev-card-sub">1064nm Diode · Alma Lasers</div>
+            <p class="dev-card-desc">Alma's clinically-validated diode laser. Delivers Boost · Tighten · Smooth in a single session, with the integrated Ice Contact Cooling system for comfort and immediate return to daily life.</p>
+            <ul class="dev-card-points">
+              <li>Boost · Tighten · Smooth modes</li>
+              <li>Ice Contact Cooling for comfort</li>
+              <li>No anesthesia required</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Lifting · Monopolar RF</div>
+            <h4 class="dev-card-name"><em>Thermage</em> FLX</h4>
+            <div class="dev-card-sub">Monopolar Radiofrequency · Solta Medical</div>
+            <p class="dev-card-desc">Two decades of clinical heritage. Monopolar radiofrequency renews collagen in the deep dermis, with the AccuREP™ algorithm calibrating energy to each patient's skin in real time.</p>
+            <ul class="dev-card-points">
+              <li>20+ years of clinical evidence</li>
+              <li>AccuREP™ smart algorithm</li>
+              <li>Comprehensive single-session reset</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Maintenance · Hydration</div>
+            <h4 class="dev-card-name"><em>Hydrafacial</em><sup>®</sup></h4>
+            <div class="dev-card-sub">3-Step Vortex-Fusion · The HydraFacial Company</div>
+            <p class="dev-card-desc">A gentle reset between treatments. Patented vortex-fusion technology cleanses, exfoliates, and infuses serums into the skin — for pore refinement, hydration, and an immediate glow.</p>
+            <ul class="dev-card-points">
+              <li>Cleanse · Exfoliate · Infuse</li>
+              <li>Pore refinement &amp; hydration</li>
+              <li>Travel-friendly · no downtime</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <!-- LASER CATEGORY -->
+      <div class="dev-cat">
+        <div class="dev-cat-header">
+          <span class="dev-cat-num">02</span>
+          <div>
+            <span class="dev-cat-label">Laser &amp; Skin Resurfacing</span>
+            <h3 class="dev-cat-title">Tone, texture, <em>clarity.</em></h3>
+          </div>
+        </div>
+
+        <div class="dev-grid">
+          <article class="dev-card">
+            <div class="dev-cat-tag">Laser · Toning</div>
+            <h4 class="dev-card-name"><em>Revlite</em> SI</h4>
+            <div class="dev-card-sub">Q-Switched Nd:YAG · Cynosure</div>
+            <p class="dev-card-desc">Cynosure's high-energy toning laser. Higher peak power than conventional toning systems, fragmenting deep dermal pigment without compromising surrounding tissue.</p>
+            <ul class="dev-card-points">
+              <li>Melasma · freckles · pigmentation</li>
+              <li>PhotoAcoustic Technology Pulse</li>
+              <li>Even, comfortable energy delivery</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Laser · Vascular &amp; Hair</div>
+            <h4 class="dev-card-name"><em>Clarity</em> II</h4>
+            <div class="dev-card-sub">Dual-Wavelength · Lutronic</div>
+            <p class="dev-card-desc">Lutronic's IntelliTrack auto-tracking system delivers uniform, low-pain treatment. Dual wavelengths address vascular concerns, pigmentation, and hair removal — from coarse to fine.</p>
+            <ul class="dev-card-points">
+              <li>IntelliTrack automatic tracking</li>
+              <li>Vascular · pigment · hair</li>
+              <li>Low-pain, anesthesia-free</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Laser · Picosecond</div>
+            <h4 class="dev-card-name"><em>Pico Plus</em></h4>
+            <div class="dev-card-sub">4-Wavelength Picosecond · Lutronic</div>
+            <p class="dev-card-desc">True picosecond and nanosecond pulses across four wavelengths (1064, 532, 595, 660nm) with six handpieces — for tattoo removal, pigmentation, scars, and skin texture.</p>
+            <ul class="dev-card-points">
+              <li>4 wavelengths · 6 handpieces</li>
+              <li>Picosecond &amp; nanosecond modes</li>
+              <li>Tattoo · pigment · scar · texture</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Laser · RF Microneedling</div>
+            <h4 class="dev-card-name"><em>Potenza</em></h4>
+            <div class="dev-card-sub">Hybrid RF Microneedling · Jeisys Medical</div>
+            <p class="dev-card-desc">Jeisys's hybrid RF microneedling platform. Delivers radiofrequency safely to the epidermis or dermis through both invasive and non-invasive modes — tailored to skin condition.</p>
+            <ul class="dev-card-points">
+              <li>Mono · Bipolar RF modes</li>
+              <li>Invasive &amp; non-invasive treatment</li>
+              <li>Acne scars · pores · texture</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Laser · IPL Multi-Wavelength</div>
+            <h4 class="dev-card-name"><em>Cellec</em> V</h4>
+            <div class="dev-card-sub">Multi-Wavelength IPL Platform</div>
+            <p class="dev-card-desc">Four targeted wavelengths in a single platform — redness, pigmentation, acne, and unwanted hair. The all-rounder for when makeup no longer covers and tone needs balancing.</p>
+            <ul class="dev-card-points">
+              <li>4 wavelength filters</li>
+              <li>Tone · vascular · acne · hair</li>
+              <li>Multi-concern in one session</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PETIT SECTION ===== -->
+    <section class="devices-section" id="petit-content">
+      <div class="results-header">
+        <div class="results-eyebrow">Petit Procedures</div>
+        <h2 class="results-title">Volume, balance, <em>restraint.</em></h2>
+        <div class="results-ornament"></div>
+        <p class="results-lede">Injectables placed by hands trained in anatomical restraint. The art is in what you don't see — the result reads as <em>well-rested,</em> never <em>filled.</em></p>
+      </div>
+
+      <!-- FILLERS -->
+      <div class="dev-cat">
+        <div class="dev-cat-header">
+          <span class="dev-cat-num">01</span>
+          <div>
+            <span class="dev-cat-label">Fillers · Volume &amp; Contour</span>
+            <h3 class="dev-cat-title">Sculpted, never <em>obvious.</em></h3>
+          </div>
+        </div>
+
+        <div class="dev-grid">
+          <article class="dev-card is-signature">
+            <span class="dev-signature-tag">Roycel Signature</span>
+            <div class="dev-cat-tag">Filler · Tear-Trough</div>
+            <h4 class="dev-card-name"><em>Tear-Trough</em></h4>
+            <div class="dev-card-sub">Under-Eye Restoration · Roycel Signature</div>
+            <p class="dev-card-desc">Our signature injection. The under-eye hollow — where age and fatigue first show — restored with an anatomical, conservative hand. The result reads as <em>well-rested,</em> never <em>filled.</em></p>
+            <ul class="dev-card-points">
+              <li>Anatomical, conservative placement</li>
+              <li>Calibrated to individual orbital structure</li>
+              <li>From ₩490,000 / cc</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Filler · Premium HA</div>
+            <h4 class="dev-card-name"><em>Juvéderm</em></h4>
+            <div class="dev-card-sub">Hyaluronic Acid Family · Allergan</div>
+            <p class="dev-card-desc">Allergan's gold-standard hyaluronic acid family. Volume and contour for cheeks, chin, jawline, and lips — placed conservatively, calibrated to facial anatomy.</p>
+            <ul class="dev-card-points">
+              <li>Vycross™ technology · long-lasting</li>
+              <li>Volume · contour · profile</li>
+              <li>Allergan · gold standard</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Filler · Soft-Tissue</div>
+            <h4 class="dev-card-name"><em>Belotero</em></h4>
+            <div class="dev-card-sub">Monophasic HA · Merz Aesthetics</div>
+            <p class="dev-card-desc">Merz's monophasic hyaluronic acid filler. Exceptional integration with soft tissue makes it the choice for fine lines, lip border, and the most delicate areas of the face.</p>
+            <ul class="dev-card-points">
+              <li>CPM® cohesive technology</li>
+              <li>Fine lines · lip border · delicate areas</li>
+              <li>Natural soft-tissue integration</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Filler · Collagen Stimulator</div>
+            <h4 class="dev-card-name"><em>Radiesse</em></h4>
+            <div class="dev-card-sub">Calcium Hydroxylapatite · Merz</div>
+            <p class="dev-card-desc">Calcium hydroxylapatite filler that lifts and stimulates collagen simultaneously — for jawline definition and structural restoration that builds over months.</p>
+            <ul class="dev-card-points">
+              <li>Immediate lift + long-term collagen</li>
+              <li>Jawline · midface · contour</li>
+              <li>Results that build over months</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <!-- SKIN BOOSTERS -->
+      <div class="dev-cat">
+        <div class="dev-cat-header">
+          <span class="dev-cat-num">02</span>
+          <div>
+            <span class="dev-cat-label">Skin Boosters &amp; Regeneration</span>
+            <h3 class="dev-cat-title">Quality of skin, from <em>within.</em></h3>
+          </div>
+        </div>
+
+        <div class="dev-grid">
+          <article class="dev-card">
+            <div class="dev-cat-tag">Booster · Polynucleotide</div>
+            <h4 class="dev-card-name"><em>Rejuran</em></h4>
+            <div class="dev-card-sub">Salmon DNA Polynucleotides · Pharma Research</div>
+            <p class="dev-card-desc">Salmon-derived polynucleotides that repair and rebuild skin from within — the Korean signature for under-eye, texture, and overall skin quality.</p>
+            <ul class="dev-card-points">
+              <li>Polynucleotide skin repair</li>
+              <li>Under-eye · texture · elasticity</li>
+              <li>Cumulative results over a series</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Booster · Deep Hydration</div>
+            <h4 class="dev-card-name"><em>Re²O</em></h4>
+            <div class="dev-card-sub">Next-Gen Hydrating Booster · Roycel Selection</div>
+            <p class="dev-card-desc">Next-generation hydrating injectable that locks moisture deep in the dermis. The treatment for travelers — long-lasting glow with minimal recovery.</p>
+            <ul class="dev-card-points">
+              <li>Deep dermal hydration</li>
+              <li>Long-lasting glow</li>
+              <li>Minimal recovery · travel-friendly</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <!-- BOTULINUM TOXINS -->
+      <div class="dev-cat">
+        <div class="dev-cat-header">
+          <span class="dev-cat-num">03</span>
+          <div>
+            <span class="dev-cat-label">Botulinum Toxins</span>
+            <h3 class="dev-cat-title">Expression, <em>refined.</em></h3>
+          </div>
+        </div>
+
+        <div class="dev-grid">
+          <article class="dev-card">
+            <div class="dev-cat-tag">Toxin · Onabotulinumtoxin A</div>
+            <h4 class="dev-card-name"><em>Botox</em></h4>
+            <div class="dev-card-sub">Allergan · The Original</div>
+            <p class="dev-card-desc">Allergan's Botox — the original and most clinically studied neuromodulator. For dynamic lines, jaw slimming, and skin botox toning of pores and texture.</p>
+            <ul class="dev-card-points">
+              <li>Dynamic wrinkles &amp; expression lines</li>
+              <li>Jaw slimming · masseter reduction</li>
+              <li>Skin botox · pore &amp; texture</li>
+            </ul>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-cat-tag">Toxin · Incobotulinumtoxin A</div>
+            <h4 class="dev-card-name"><em>Xeomin</em></h4>
+            <div class="dev-card-sub">Merz · Pure-Form Toxin</div>
+            <p class="dev-card-desc">Merz's Xeomin — a pure-form botulinum toxin with no complexing proteins, reducing the likelihood of antibody resistance over long-term use.</p>
+            <ul class="dev-card-points">
+              <li>Pure-form · no complexing proteins</li>
+              <li>Reduced resistance risk</li>
+              <li>Ideal for long-term protocols</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <!-- STEM CELLS -->
+      <div class="dev-cat">
+        <div class="dev-cat-header">
+          <span class="dev-cat-num">04</span>
+          <div>
+            <span class="dev-cat-label">Cellular Therapy</span>
+            <h3 class="dev-cat-title">Renewal at the <em>cellular level.</em></h3>
+          </div>
+        </div>
+
+        <div class="dev-grid dev-grid-single">
+          <article class="dev-card is-signature">
+            <span class="dev-signature-tag">Premium Anti-Aging</span>
+            <div class="dev-cat-tag">Stem Cell · Regenerative</div>
+            <h4 class="dev-card-name"><em>Roycel Stem Cell Therapy</em></h4>
+            <div class="dev-card-sub">Facial &amp; IV Stem Cell Infusion · Roycel Signature</div>
+            <p class="dev-card-desc">Roycel's flagship anti-aging protocol. Facial and IV stem cell infusions designed for cellular renewal, vitality, and a luminous quality of skin no topical treatment can replicate. Available in tiered protocols for first-time and returning guests.</p>
+            <ul class="dev-card-points">
+              <li>Facial Injection — single &amp; 3-session packages</li>
+              <li>Combined Facial + IV protocols</li>
+              <li>From ₩2,900,000 · See pricing tab for full details</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TAB SWITCHING + CONSULT SCRIPT ===== -->
+    <script>
+      // Consult — match index.html ROYCEL_CONTACT
+      const WHATSAPP_NUMBER = '821012345678';
+      const WHATSAPP_MESSAGE = "Hello Roycel Chungdam, I'd like to schedule a consultation. Could you share your earliest availability?";
+      function openWhatsAppFromPricing() {
+        const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+        window.open(url, '_blank', 'noopener');
+      }
+
+      // Tab switching
+      const tabs = document.querySelectorAll('.tab');
+      const pricingEl = document.getElementById('pricing-content');
+      const resultsEl = document.getElementById('results-content');
+      const devicesEl = document.getElementById('devices-content');
+      const petitEl = document.getElementById('petit-content');
+
+      function showTab(name) {
+        tabs.forEach(t => t.classList.toggle('is-active', t.dataset.tab === name));
+
+        // Hide all
+        pricingEl.classList.add('is-hidden');
+        resultsEl.classList.remove('is-visible');
+        devicesEl.classList.remove('is-visible');
+        petitEl.classList.remove('is-visible');
+
+        // Show selected
+        if (name === 'pricing') {
+          pricingEl.classList.remove('is-hidden');
+        } else if (name === 'results') {
+          resultsEl.classList.add('is-visible');
+        } else if (name === 'devices') {
+          devicesEl.classList.add('is-visible');
+        } else if (name === 'petit') {
+          petitEl.classList.add('is-visible');
+        }
+
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        history.replaceState(null, '', '#' + name);
+        window.trackEvent && window.trackEvent('tab_change', { tab: name });
+      }
+
+      tabs.forEach(t => t.addEventListener('click', () => showTab(t.dataset.tab)));
+
+      // Honor URL hash on first load
+      const hash = window.location.hash.replace('#', '');
+      if (['pricing', 'results', 'devices', 'petit'].includes(hash)) {
+        showTab(hash);
+      }
+    </script>
+
+    <!-- ===== CONSULTATION FORM MODAL ===== -->
+    <div class="consult-modal" id="consultModal" aria-hidden="true">
+      <div class="consult-modal-overlay" onclick="closeConsultForm()"></div>
+      <div class="consult-modal-box" role="dialog" aria-modal="true" aria-label="Consultation request form">
+        <button class="consult-modal-close" onclick="closeConsultForm()" aria-label="Close">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+        <div class="consult-modal-header">
+          <div class="consult-modal-eyebrow">Consultation Request</div>
+          <h2 class="consult-modal-title">Tell us a little<br>about your visit</h2>
+          <p class="consult-modal-sub">A short form helps our concierge prepare before your WhatsApp chat. It takes about a minute — or skip it entirely.</p>
+        </div>
+        <form class="consult-form" id="consultForm" onsubmit="return false;">
+          <div class="cf-row">
+            <div class="cf-field">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" placeholder="Your full name" autocomplete="name">
+            </div>
+            <div class="cf-field">
+              <label for="cf-phone">WhatsApp Number</label>
+              <input type="tel" id="cf-phone" placeholder="+1 234 567 8900" autocomplete="tel">
+            </div>
+          </div>
+          <div class="cf-row">
+            <div class="cf-field">
+              <label for="cf-country">Country</label>
+              <input type="text" id="cf-country" placeholder="Country of residence" autocomplete="country-name">
+            </div>
+            <div class="cf-field">
+              <label for="cf-age">Age</label>
+              <select id="cf-age">
+                <option value="">Select</option>
+                <option value="Under 20">Under 20</option>
+                <option value="20s">20s</option>
+                <option value="30s">30s</option>
+                <option value="40s">40s</option>
+                <option value="50s">50s</option>
+                <option value="60s">60s</option>
+                <option value="70+">70+</option>
+              </select>
+            </div>
+          </div>
+          <div class="cf-field">
+            <label>Treatments of Interest <span class="cf-hint">— select any</span></label>
+            <div class="cf-chips" id="cf-treatments">
+              <button type="button" class="cf-chip" data-value="Sofwave">Sofwave</button>
+              <button type="button" class="cf-chip" data-value="Ulthera">Ulthera</button>
+              <button type="button" class="cf-chip" data-value="Thermage">Thermage</button>
+              <button type="button" class="cf-chip" data-value="Titanium">Titanium</button>
+              <button type="button" class="cf-chip" data-value="Laser / Toning">Laser / Toning</button>
+              <button type="button" class="cf-chip" data-value="Tear-Trough Filler">Tear-Trough Filler</button>
+              <button type="button" class="cf-chip" data-value="Filler">Filler</button>
+              <button type="button" class="cf-chip" data-value="Botox">Botox</button>
+              <button type="button" class="cf-chip" data-value="Skin Booster">Skin Booster</button>
+              <button type="button" class="cf-chip" data-value="Stem Cell Therapy">Stem Cell Therapy</button>
+              <button type="button" class="cf-chip" data-value="Not sure yet">Not sure yet</button>
+            </div>
+          </div>
+          <div class="cf-field">
+            <label>Have you had aesthetic procedures before?</label>
+            <div class="cf-chips cf-chips-single" id="cf-history">
+              <button type="button" class="cf-chip" data-value="Yes">Yes</button>
+              <button type="button" class="cf-chip" data-value="No">No</button>
+              <button type="button" class="cf-chip" data-value="Prefer not to say">Prefer not to say</button>
+            </div>
+          </div>
+          <div class="cf-field">
+            <label>Travel Dates to Korea</label>
+            <label class="cf-checkbox-line">
+              <input type="checkbox" id="cf-dates-undecided" onchange="toggleVisitDates()">
+              <span>My travel dates are not decided yet</span>
+            </label>
+            <div class="cf-visit-dates" id="cf-visit-dates">
+              <div class="cf-row">
+                <div class="cf-field">
+                  <label for="cf-arrival" class="cf-sublabel">Arrival</label>
+                  <input type="date" id="cf-arrival">
+                </div>
+                <div class="cf-field">
+                  <label for="cf-departure" class="cf-sublabel">Departure</label>
+                  <input type="date" id="cf-departure">
+                </div>
+              </div>
+              <div class="cf-field">
+                <label for="cf-flight" class="cf-sublabel">Flight number <span class="cf-hint">— optional</span></label>
+                <input type="text" id="cf-flight" placeholder="e.g. KE085">
+              </div>
+            </div>
+          </div>
+          <div class="cf-field">
+            <label>Preferred Consultation Times <span class="cf-hint">— up to 3</span></label>
+            <div class="cf-times">
+              <div class="cf-time-slot">
+                <span class="cf-time-num">1</span>
+                <input type="date" id="cf-date-1" class="cf-date-input" onchange="updateTimeOptions(1)">
+                <select id="cf-time-1" class="cf-time-select"><option value="">Time</option></select>
+              </div>
+              <div class="cf-time-slot">
+                <span class="cf-time-num">2</span>
+                <input type="date" id="cf-date-2" class="cf-date-input" onchange="updateTimeOptions(2)">
+                <select id="cf-time-2" class="cf-time-select"><option value="">Time</option></select>
+              </div>
+              <div class="cf-time-slot">
+                <span class="cf-time-num">3</span>
+                <input type="date" id="cf-date-3" class="cf-date-input" onchange="updateTimeOptions(3)">
+                <select id="cf-time-3" class="cf-time-select"><option value="">Time</option></select>
+              </div>
+            </div>
+            <p class="cf-note-small">All times in Korea Standard Time (KST). Clinic hours — Mon–Fri 10:30–19:30, Sat 10:00–16:00, closed Sundays. Our concierge will confirm the final slot.</p>
+          </div>
+          <div class="cf-field">
+            <label>Concierge Support <span class="cf-hint">— select if needed</span></label>
+            <label class="cf-checkbox-line">
+              <input type="checkbox" id="cf-airport">
+              <span>Airport pickup assistance</span>
+            </label>
+            <label class="cf-checkbox-line">
+              <input type="checkbox" id="cf-translation">
+              <span>Translation support during consultation</span>
+            </label>
+          </div>
+          <div class="cf-actions">
+            <button type="button" class="cf-submit" onclick="submitConsultForm()">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              Send via WhatsApp
+            </button>
+            <button type="button" class="cf-skip" onclick="skipConsultForm()">
+              Skip form &amp; chat directly
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ===== FLOATING CONSULT BUTTON ===== -->
+    <button class="consult-fab" onclick="openConsultForm()">
+      <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+      <span class="fab-label">Consult</span>
+    </button>
+
+    <!-- ===== CONSULTATION FORM SCRIPT ===== -->
+    <script>
+      function openConsultForm() {
+        const modal = document.getElementById('consultModal');
+        if (modal) {
+          modal.classList.add('is-open');
+          modal.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+          window.trackEvent && window.trackEvent('consult_form_open', { source: 'pricing_page' });
+        }
+      }
+      function closeConsultForm() {
+        const modal = document.getElementById('consultModal');
+        if (modal) {
+          modal.classList.remove('is-open');
+          modal.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+        }
+      }
+      function skipConsultForm() {
+        window.trackEvent && window.trackEvent('consult_form_skip', {});
+        closeConsultForm();
+        openWhatsAppFromPricing();
+      }
+      function toggleVisitDates() {
+        const undecided = document.getElementById('cf-dates-undecided');
+        const dateBlock = document.getElementById('cf-visit-dates');
+        if (undecided && dateBlock) {
+          dateBlock.classList.toggle('is-hidden', undecided.checked);
+        }
+      }
+      // Business hours: Mon–Fri 10:30–19:30 · Sat 10:00–16:00 · Sun closed
+      function generateTimeSlots(dayOfWeek) {
+        let startMin, endMin;
+        if (dayOfWeek === 0) return null;
+        else if (dayOfWeek === 6) { startMin = 600; endMin = 900; }
+        else { startMin = 630; endMin = 1110; }
+        const slots = [];
+        for (let m = startMin; m <= endMin; m += 30) {
+          const h = Math.floor(m / 60), min = m % 60;
+          slots.push(`${String(h).padStart(2,'0')}:${String(min).padStart(2,'0')}`);
+        }
+        return slots;
+      }
+      function updateTimeOptions(slotNum) {
+        const dateInput = document.getElementById(`cf-date-${slotNum}`);
+        const timeSelect = document.getElementById(`cf-time-${slotNum}`);
+        if (!dateInput || !timeSelect) return;
+        const dateVal = dateInput.value;
+        timeSelect.innerHTML = '<option value="">Time</option>';
+        if (!dateVal) return;
+        const date = new Date(dateVal + 'T00:00:00');
+        const slots = generateTimeSlots(date.getDay());
+        if (slots === null) {
+          const opt = document.createElement('option');
+          opt.value = ''; opt.textContent = 'Closed on Sundays'; opt.disabled = true;
+          timeSelect.appendChild(opt);
+          timeSelect.classList.add('cf-time-closed');
+          return;
+        }
+        timeSelect.classList.remove('cf-time-closed');
+        slots.forEach(s => {
+          const opt = document.createElement('option');
+          opt.value = s; opt.textContent = s;
+          timeSelect.appendChild(opt);
+        });
+      }
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('#cf-treatments .cf-chip').forEach(chip => {
+          chip.addEventListener('click', () => chip.classList.toggle('is-selected'));
+        });
+        document.querySelectorAll('#cf-history .cf-chip').forEach(chip => {
+          chip.addEventListener('click', () => {
+            document.querySelectorAll('#cf-history .cf-chip').forEach(c => c.classList.remove('is-selected'));
+            chip.classList.add('is-selected');
+          });
+        });
+        const today = new Date().toISOString().split('T')[0];
+        ['cf-arrival', 'cf-departure', 'cf-date-1', 'cf-date-2', 'cf-date-3'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.min = today;
+        });
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeConsultForm();
+      });
+      function submitConsultForm() {
+        const val = id => (document.getElementById(id)?.value || '').trim();
+        const checked = id => document.getElementById(id)?.checked;
+        const name = val('cf-name');
+        const phone = val('cf-phone');
+        const country = val('cf-country');
+        const age = val('cf-age');
+        const treatments = Array.from(document.querySelectorAll('#cf-treatments .cf-chip.is-selected')).map(c => c.dataset.value);
+        const history = document.querySelector('#cf-history .cf-chip.is-selected')?.dataset.value || '';
+        const datesUndecided = checked('cf-dates-undecided');
+        const arrival = val('cf-arrival');
+        const departure = val('cf-departure');
+        const flight = val('cf-flight');
+        const slots = [1, 2, 3].map(n => ({ date: val(`cf-date-${n}`), time: val(`cf-time-${n}`) })).filter(s => s.date && s.time);
+        const airport = checked('cf-airport');
+        const translation = checked('cf-translation');
+        const fmtD = s => { if (!s) return ''; const d = new Date(s + 'T00:00:00'); if (isNaN(d)) return s; return d.toLocaleDateString('en-GB', { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' }); };
+        let msg = "Hello Roycel Chungdam, I'd like to request a consultation.\n\n";
+        msg += "— CONSULTATION REQUEST —\n";
+        if (name) msg += `Name: ${name}\n`;
+        if (phone) msg += `WhatsApp: ${phone}\n`;
+        if (country) msg += `Country: ${country}\n`;
+        if (age) msg += `Age: ${age}\n`;
+        if (treatments.length) msg += `Treatments of interest: ${treatments.join(', ')}\n`;
+        if (history) msg += `Prior procedures: ${history}\n`;
+        msg += "\n— VISIT TO KOREA —\n";
+        if (datesUndecided) {
+          msg += "Travel dates: Not decided yet\n";
+        } else {
+          if (arrival) msg += `Arrival: ${fmtD(arrival)}\n`;
+          if (departure) msg += `Departure: ${fmtD(departure)}\n`;
+          if (flight) msg += `Flight: ${flight}\n`;
+          if (!arrival && !departure && !flight) msg += "Travel dates: (not specified)\n";
+        }
+        if (slots.length) {
+          msg += "\n— PREFERRED CONSULTATION TIMES (KST) —\n";
+          slots.forEach((s, i) => { msg += `${i + 1}. ${fmtD(s.date)} at ${s.time}\n`; });
+        }
+        if (airport || translation) {
+          msg += "\n— CONCIERGE SUPPORT —\n";
+          if (airport) msg += "• Airport pickup assistance\n";
+          if (translation) msg += "• Translation during consultation\n";
+        }
+        msg += "\nThank you. I look forward to hearing from you.";
+
+        // GA4 — capture form submission
+        window.trackEvent && window.trackEvent('consult_form_submit', {
+          country: country || '(not set)',
+          age: age || '(not set)',
+          treatments_count: treatments.length,
+          treatments: treatments.join(',') || '(none)',
+          prior_procedures: history || '(not set)',
+          visit_dates: datesUndecided ? 'undecided' : (arrival ? 'set' : 'none'),
+          preferred_slots: slots.length,
+          airport_pickup: airport ? 'yes' : 'no',
+          translation: translation ? 'yes' : 'no',
+        });
+
+        closeConsultForm();
+        const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+        window.open(url, '_blank', 'noopener');
+      }
+    </script>
+
+  </body></html>
